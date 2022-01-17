@@ -5,9 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import clayful from "clayful/client-js";
-import axios from "axios";
 import * as config from "./config";
+import clayful from "clayful/client-js";
+
+import axios from "axios";
+import "./css/auth.css";
 // const clayful = require('clayful');
 
 clayful.config({
